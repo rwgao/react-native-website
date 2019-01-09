@@ -3,11 +3,11 @@ id: imagebackground
 title: ImageBackground
 ---
 
-A common feature request from developers familiar with the web is `background-image`. To handle this use case, you can use the `<ImageBackground>` component, which has the same props as `<Image>`, and add whatever children to it you would like to layer on top of it.
+熟悉web的开发人员的一个常见特性要求是`background-image`。要处理这个用例，您可以使用`<ImageBackground>`组件，它具有与`<Image>`相同的道具，并在其上添加您想要的任何子元素。
 
-You might not want to use `<ImageBackground>` in some cases, since the implementation is very simple. Refer to `<ImageBackground>`'s [source code](https://github.com/facebook/react-native/blob/master/Libraries/Image/ImageBackground.js) for more insight, and create your own custom component when needed.
+在某些情况下，您可能不想使用`<ImageBackground>`，因为实现非常简单。有关更多信息，请参考`<ImageBackground>`[source code](https://github.com/facebook/react-native/blob/master/Libraries/Image/ImageBackground.js)的源代码，并在需要时创建自己的定制组件。
 
-Note that you must specify some width and height style attributes.
+注意，必须指定一些宽度和高度样式属性。
 
 ## Example
 
